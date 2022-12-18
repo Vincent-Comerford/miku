@@ -9,4 +9,14 @@ public class MenuButton : MonoBehaviour
     {
         SceneManager.LoadScene("Main Scene");
     }
+
+    public void GoToHardMode()
+    {
+        SceneManager.LoadScene("HardMode");
+    }
+
+    public void GoToNewScene()
+    {
+        SceneManager.LoadScene("New Scene");
+    }
 }
